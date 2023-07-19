@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.poster {
+    width: 50%;
+    margin-left: 5%;
+    text-align: center;
+    
+    
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+.mot {
+    border: 5px solid white;
+    width: 100%;
+}
+
