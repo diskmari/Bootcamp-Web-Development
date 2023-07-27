@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f7f7f7;
+    }
+
+    
+    /* Estilos para a seção de planos de preços em telas menores */
+    @media (max-width: 1250px) {
+        .pricing-container {
+            flex-wrap: wrap; /* Permite que os itens sejam organizados em várias linhas */
+            justify-content: center; /* Centraliza os itens horizontalmente */
+        }
+        
+        .pricing-plan {
+            flex-basis: 45%; /* Cada plano de preço ocupa 45% da largura do contêiner */
+            margin: 10px; /* Adiciona uma margem entre os planos */
+        }
+    }
+    
+    .pricing-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 2em;
+        padding: 40px;
+    }
+
+    .pricing-plan {
+        flex: 1;
+        max-width: 400px;
+        padding: 30px;
+        background: rgb(238, 232, 248);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .plan-title {
+        font-size: 28px;
+        font-family: 'Sono', sans-serif;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #333333;
+
+    }
+
+    .plan-price {
+        font-size: 38px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #8136d6;
+    }
+
+    .plan-features {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        color: #666666;
+    }
+
+    .plan-features li {
+        margin-bottom: 15px;
+    }
+
+    .plan-button {
+        padding: 12px 30px;
+        background-color: #8136d6;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .plan-button:hover {
+        background-color: #6c1dbf; 
+    }
+ 
