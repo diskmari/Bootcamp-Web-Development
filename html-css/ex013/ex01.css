@@ -1,0 +1,17 @@
+.container {
+    height: 100vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.item {
+    font-size: 5em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
